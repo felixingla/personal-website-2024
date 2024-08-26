@@ -10,15 +10,15 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <Link to="/en" className={`${getLinkClass("/en")} footer-link-en`}>
+      <Link to="/en" className={`${getLinkClass("/en")} `}>
         English
       </Link>
       <span className="footer-divider">|</span>
-      <Link to="/es" className={`${getLinkClass("/es")} footer-link-es`}>
+      <Link to="/es" className={`${getLinkClass("/es")} `}>
         Español
       </Link>
       <span className="footer-divider">|</span>
-      <Link to="/ca" className={`${getLinkClass("/ca")} footer-link-ca`}>
+      <Link to="/ca" className={`${getLinkClass("/ca")} `}>
         Català
       </Link>
     </footer>

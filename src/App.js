@@ -40,7 +40,7 @@ function App() {
             <Route path="/" element={<HomePageEn />} />
           </Routes>
         </div>
-        <div className="App-content">
+        <div>
           <Footer />
         </div>
       </div>

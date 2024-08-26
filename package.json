@@ -25,6 +25,42 @@
       "react-app/jest"
     ]
   },
+  ,
+  "reactSnap": {
+    "inlineCss": true,
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    },
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-gpu",
+      "--disable-dev-shm-usage"
+    ],
+    "concurrency": 4,
+    "include": [
+      "/",
+      "/es",
+      "/en",
+      "/ca"
+    ],
+    "skipThirdPartyRequests": true,
+    "removeTrailingSlash": true,
+    "waitFor": 5000,
+    "puppeteerIgnoreHTTPSErrors": true,
+    "fixWebpackChunksIssue": "CRA2",
+    "removeBlobs": true,
+    "cacheAjaxRequests": true,
+    "http2PushManifest": true,
+    "sourceMaps": false,
+    "headless": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -38,6 +74,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-snap": "^1.23.0"
   }
 }
