@@ -30,7 +30,7 @@ function HomePageEs() {
           <p>
             Soy el fundador de{" "}
             <a
-              href="https://pedra.so"
+              href="https://pedra.so/es"
               rel="noopener"
               alt="Félix Ingla, fundador de Pedra"
             >
@@ -40,7 +40,7 @@ function HomePageEs() {
             , una aplicación web de software para ayudar a los profesionales
             inmobiliarios a crear{" "}
             <a
-              href="https://pedra.so/home-staging-virtual"
+              href="https://pedra.so/es/home-staging-virtual"
               rel="noopener"
               title="Home Staging Virtual con Pedra"
             >
@@ -48,7 +48,7 @@ function HomePageEs() {
             </a>{" "}
             y mejorar su{" "}
             <a
-              href="https://pedra.so/real-estate-photography"
+              href="https://pedra.so/es/real-estate-photography"
               rel="noopener"
               title="Mejora de Fotografía Inmobiliaria con Pedra"
             >
